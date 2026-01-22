@@ -220,4 +220,35 @@
   .cqc-badge {
     display: none;
   }
+
+  .header-top {
+    padding: var(--spacing-xs) 0;
+  }
+
+  .phone-link {
+    font-size: var(--text-xs);
+  }
+
+  .header-main {
+    padding: var(--spacing-sm) 0;
+  }
+
+  .logo-text {
+    font-size: var(--text-xl);
+  }
+
+  .logo-subtext {
+    font-size: var(--text-xs);
+    letter-spacing: 1px;
+  }
+
+  .nav-links {
+    width: 85%;
+    max-width: 280px;
+    padding: var(--spacing-2xl) var(--spacing-lg);
+  }
+
+  .mobile-toggle {
+    padding: var(--spacing-xs);
+  }
 }
