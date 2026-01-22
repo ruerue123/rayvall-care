@@ -1,16 +1,40 @@
 import { useState } from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useNavigate, useLocation } from 'react-router-dom';
 import { Phone, Menu, X, ChevronDown } from 'lucide-react';
 import './Header.css';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isServicesOpen, setIsServicesOpen] = useState(false);
+  const navigate = useNavigate();
+  const location = useLocation();
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
   const closeMenu = () => {
     setIsMenuOpen(false);
     setIsServicesOpen(false);
+  };
+
+  const handleServiceClick = (e, serviceSlug) => {
+    e.preventDefault();
+    closeMenu();
+
+    if (location.pathname === '/services') {
+      // Already on services page, just scroll
+      const element = document.getElementById(serviceSlug);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      }
+    } else {
+      // Navigate to services page then scroll
+      navigate('/services');
+      setTimeout(() => {
+        const element = document.getElementById(serviceSlug);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      }, 100);
+    }
   };
 
   return (
@@ -52,11 +76,12 @@ const Header = () => {
                   Our Services <ChevronDown size={16} />
                 </button>
                 <ul className={`dropdown-menu ${isServicesOpen ? 'active' : ''}`}>
-                  <li><NavLink to="/services/personal-care" onClick={closeMenu}>Personal Care</NavLink></li>
-                  <li><NavLink to="/services/companionship" onClick={closeMenu}>Companionship</NavLink></li>
-                  <li><NavLink to="/services/live-in-care" onClick={closeMenu}>Live-In Care</NavLink></li>
-                  <li><NavLink to="/services/dementia-care" onClick={closeMenu}>Dementia Care</NavLink></li>
-                  <li><NavLink to="/services/respite-care" onClick={closeMenu}>Respite Care</NavLink></li>
+                  <li><a href="/services#personal-care" onClick={(e) => handleServiceClick(e, 'personal-care')}>Personal Care</a></li>
+                  <li><a href="/services#companionship" onClick={(e) => handleServiceClick(e, 'companionship')}>Companionship</a></li>
+                  <li><a href="/services#live-in-care" onClick={(e) => handleServiceClick(e, 'live-in-care')}>Live-In Care</a></li>
+                  <li><a href="/services#dementia-care" onClick={(e) => handleServiceClick(e, 'dementia-care')}>Dementia Care</a></li>
+                  <li><a href="/services#respite-care" onClick={(e) => handleServiceClick(e, 'respite-care')}>Respite Care</a></li>
+                  <li><a href="/services#complex-care" onClick={(e) => handleServiceClick(e, 'complex-care')}>Complex Care</a></li>
                   <li><NavLink to="/services" onClick={closeMenu}>View All Services</NavLink></li>
                 </ul>
               </li>

@@ -8,6 +8,7 @@ const services = [
     title: 'Personal Care',
     slug: 'personal-care',
     description: 'Dignified support with daily activities including bathing, dressing, grooming, and medication management.',
+    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&q=80',
     features: [
       'Bathing and showering assistance',
       'Dressing and grooming help',
@@ -22,6 +23,7 @@ const services = [
     title: 'Companionship',
     slug: 'companionship',
     description: 'Friendly visits providing social interaction, conversation, and accompaniment to appointments or activities.',
+    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=80',
     features: [
       'Friendly conversation and company',
       'Accompaniment to appointments',
@@ -36,6 +38,7 @@ const services = [
     title: 'Live-In Care',
     slug: 'live-in-care',
     description: '24/7 dedicated care in the comfort of your own home, providing round-the-clock support and peace of mind.',
+    image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&q=80',
     features: [
       'Round-the-clock support',
       'Personalised one-to-one care',
@@ -50,6 +53,7 @@ const services = [
     title: 'Dementia Care',
     slug: 'dementia-care',
     description: 'Specialist support for those living with dementia, delivered with patience, understanding, and dignity.',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80',
     features: [
       'Specially trained dementia carers',
       'Memory support techniques',
@@ -64,6 +68,7 @@ const services = [
     title: 'Respite Care',
     slug: 'respite-care',
     description: 'Short-term care to give family carers a well-deserved break while ensuring continuity of care.',
+    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
     features: [
       'Flexible duration options',
       'Emergency respite available',
@@ -78,6 +83,7 @@ const services = [
     title: 'Complex Care',
     slug: 'complex-care',
     description: 'Specialist nursing support for conditions requiring clinical expertise and ongoing medical care.',
+    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80',
     features: [
       'Catheter and stoma care',
       'PEG feeding support',
@@ -135,7 +141,7 @@ const ServicesPage = () => {
                 </Link>
               </div>
               <div className="service-image">
-                <div className="image-placeholder"></div>
+                <img src={service.image} alt={service.title} />
               </div>
             </div>
           ))}
