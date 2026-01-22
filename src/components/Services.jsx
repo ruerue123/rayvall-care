@@ -65,7 +65,7 @@ const Services = () => {
               <div className="service-image">
                 <img src={service.image} alt={service.title} />
                 <div className="service-icon">
-                  <service.icon size={24} />
+                  <service.icon size={18} />
                 </div>
               </div>
               <div className="service-content">

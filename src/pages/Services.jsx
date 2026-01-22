@@ -124,20 +124,20 @@ const ServicesPage = () => {
             >
               <div className="service-content">
                 <div className="service-icon-large">
-                  <service.icon size={40} />
+                  <service.icon size={28} />
                 </div>
                 <h2>{service.title}</h2>
                 <p className="service-description">{service.description}</p>
                 <ul className="service-features">
                   {service.features.map((feature, fIndex) => (
                     <li key={fIndex}>
-                      <CheckCircle size={18} />
+                      <CheckCircle size={16} />
                       <span>{feature}</span>
                     </li>
                   ))}
                 </ul>
                 <Link to="/contact" className="btn btn-primary">
-                  Enquire About {service.title} <ArrowRight size={18} />
+                  Enquire About {service.title} <ArrowRight size={14} />
                 </Link>
               </div>
               <div className="service-image">

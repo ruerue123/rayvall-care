@@ -101,9 +101,9 @@ p {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-md) var(--spacing-xl);
-  font-size: var(--text-base);
+  gap: var(--spacing-xs);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  font-size: var(--text-sm);
   font-weight: 600;
   border: none;
   border-radius: var(--radius-md);
@@ -148,8 +148,8 @@ p {
 }
 
 .btn-lg {
-  padding: var(--spacing-lg) var(--spacing-2xl);
-  font-size: var(--text-lg);
+  padding: var(--spacing-md) var(--spacing-xl);
+  font-size: var(--text-base);
 }
 
 /* Cards */

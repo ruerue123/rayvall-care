@@ -27,7 +27,7 @@
 /* Service Image */
 .service-image {
   position: relative;
-  height: 200px;
+  height: 180px;
   overflow: hidden;
 }
 
@@ -44,16 +44,16 @@
 
 .service-icon {
   position: absolute;
-  bottom: -20px;
-  right: 20px;
-  width: 50px;
-  height: 50px;
+  bottom: -16px;
+  right: 16px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: var(--primary-green);
   color: var(--white);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   box-shadow: var(--shadow-md);
   transition: transform var(--transition-fast);
 }
@@ -64,16 +64,16 @@
 
 /* Service Content */
 .service-content {
-  padding: var(--spacing-xl);
-  padding-top: var(--spacing-lg);
+  padding: var(--spacing-lg);
+  padding-top: var(--spacing-md);
   display: flex;
   flex-direction: column;
   flex: 1;
 }
 
 .service-content h3 {
-  font-size: var(--text-xl);
-  margin-bottom: var(--spacing-sm);
+  font-size: var(--text-lg);
+  margin-bottom: var(--spacing-xs);
   color: var(--primary-green);
   font-family: var(--font-heading);
 }
@@ -81,8 +81,9 @@
 .service-content p {
   color: var(--medium-gray);
   flex: 1;
-  margin-bottom: var(--spacing-md);
-  line-height: 1.6;
+  margin-bottom: var(--spacing-sm);
+  line-height: 1.5;
+  font-size: var(--text-sm);
 }
 
 .service-link {
