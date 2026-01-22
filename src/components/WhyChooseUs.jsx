@@ -39,6 +39,17 @@ const WhyChooseUs = () => {
     <section className="why-choose-us section">
       <div className="container">
         <div className="why-choose-us-content">
+          <div className="why-choose-us-image">
+            <img
+              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80"
+              alt="Caring hands helping elderly person"
+              className="main-image"
+            />
+            <div className="image-badge">
+              <span className="badge-number">15+</span>
+              <span className="badge-text">Years of Care</span>
+            </div>
+          </div>
           <div className="why-choose-us-text">
             <span className="section-label">Why Choose Rayvall Care</span>
             <h2>Trusted Homecare That Puts You First</h2>
@@ -48,24 +59,19 @@ const WhyChooseUs = () => {
               home to provide care is a significant decision, which is why we go above
               and beyond to ensure you receive the highest quality support.
             </p>
-            <p>
-              Our dedicated team of carers are passionate about making a positive
-              difference in people's lives, helping you maintain independence and
-              dignity in the comfort of your own home.
-            </p>
-          </div>
-          <div className="features-grid">
-            {features.map((feature, index) => (
-              <div key={index} className="feature-item">
-                <div className="feature-icon">
-                  <feature.icon size={24} />
+            <div className="features-grid">
+              {features.map((feature, index) => (
+                <div key={index} className="feature-item">
+                  <div className="feature-icon">
+                    <feature.icon size={20} />
+                  </div>
+                  <div className="feature-content">
+                    <h4>{feature.title}</h4>
+                    <p>{feature.description}</p>
+                  </div>
                 </div>
-                <div className="feature-content">
-                  <h4>{feature.title}</h4>
-                  <p>{feature.description}</p>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </div>

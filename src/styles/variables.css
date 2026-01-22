@@ -25,9 +25,9 @@
   --warning: #ffc107;
   --error: #dc3545;
 
-  /* Typography */
-  --font-primary: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  --font-heading: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Typography - Montserrat for headings, Lato for body */
+  --font-primary: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --font-heading: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
   /* Font Sizes */
   --text-xs: 0.75rem;

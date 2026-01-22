@@ -1,6 +1,6 @@
 /* Jobs Banner Section Styles */
 .jobs-banner {
-  background: var(--off-white);
+  background: var(--white);
 }
 
 .jobs-banner-content {
@@ -10,20 +10,45 @@
   align-items: center;
 }
 
-.jobs-icon {
-  width: 64px;
-  height: 64px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: var(--accent-teal);
-  color: var(--white);
+/* Jobs Image */
+.jobs-image {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: var(--spacing-md);
+}
+
+.main-job-image {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+}
+
+.secondary-job-image {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
   border-radius: var(--radius-lg);
-  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
+  align-self: end;
+}
+
+/* Jobs Text */
+.jobs-label {
+  display: inline-block;
+  color: var(--primary-green);
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: var(--text-sm);
+  margin-bottom: var(--spacing-sm);
 }
 
 .jobs-text h2 {
   margin-bottom: var(--spacing-md);
+  font-family: var(--font-heading);
 }
 
 .jobs-text > p {
@@ -45,42 +70,12 @@
   gap: var(--spacing-sm);
   padding: var(--spacing-sm) 0;
   color: var(--text-dark);
+  font-size: var(--text-base);
 }
 
 .benefits-list li svg {
-  color: var(--accent-teal);
+  color: var(--primary-green);
   flex-shrink: 0;
-}
-
-/* Jobs Image */
-.jobs-image {
-  position: relative;
-}
-
-.image-placeholder {
-  position: relative;
-  border-radius: var(--radius-lg);
-  overflow: hidden;
-  box-shadow: var(--shadow-lg);
-}
-
-.image-placeholder::before {
-  content: '';
-  position: absolute;
-  top: -20px;
-  left: -20px;
-  right: 20px;
-  bottom: 20px;
-  background: var(--accent-teal);
-  border-radius: var(--radius-lg);
-  z-index: -1;
-  opacity: 0.2;
-}
-
-.image-placeholder img {
-  width: 100%;
-  height: 400px;
-  object-fit: cover;
 }
 
 /* Responsive */
@@ -94,7 +89,25 @@
     order: -1;
   }
 
-  .image-placeholder img {
+  .main-job-image {
     height: 300px;
+  }
+
+  .secondary-job-image {
+    height: 200px;
+  }
+}
+
+@media (max-width: 600px) {
+  .jobs-image {
+    grid-template-columns: 1fr;
+  }
+
+  .secondary-job-image {
+    display: none;
+  }
+
+  .main-job-image {
+    height: 250px;
   }
 }

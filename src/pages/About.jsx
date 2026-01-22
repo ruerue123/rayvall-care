@@ -48,7 +48,8 @@ const About = () => {
         <div className="container">
           <div className="story-content">
             <div className="story-text">
-              <h2>Our Story</h2>
+              <span className="section-label">Our Story</span>
+              <h2>A Family Business Built on Care</h2>
               <p>
                 Rayvall Care was founded with a simple but powerful mission: to
                 provide the kind of care we would want for our own loved ones.
@@ -68,8 +69,17 @@ const About = () => {
                 person-centred care.
               </p>
             </div>
-            <div className="story-image">
-              <div className="image-placeholder"></div>
+            <div className="story-images">
+              <img
+                src="https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=500&q=80"
+                alt="Caregiver with client"
+                className="story-image-main"
+              />
+              <img
+                src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=400&q=80"
+                alt="Happy senior couple"
+                className="story-image-secondary"
+              />
             </div>
           </div>
         </div>
@@ -129,7 +139,14 @@ const About = () => {
       <section className="cqc-section section bg-light">
         <div className="container">
           <div className="cqc-content">
+            <div className="cqc-image">
+              <img
+                src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=500&q=80"
+                alt="Professional healthcare"
+              />
+            </div>
             <div className="cqc-text">
+              <span className="section-label">Quality Assurance</span>
               <h2>Regulated by the Care Quality Commission</h2>
               <p>
                 We are fully registered and regulated by the Care Quality
@@ -145,12 +162,6 @@ const About = () => {
               <Link to="/contact" className="btn btn-primary">
                 Contact Us
               </Link>
-            </div>
-            <div className="cqc-badge-large">
-              <div className="badge-content">
-                <span className="badge-title">CQC</span>
-                <span className="badge-subtitle">Registered</span>
-              </div>
             </div>
           </div>
         </div>

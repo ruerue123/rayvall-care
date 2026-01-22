@@ -5,7 +5,7 @@
 
 .services-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: var(--spacing-xl);
   margin-bottom: var(--spacing-2xl);
 }
@@ -16,22 +16,45 @@
   text-decoration: none;
   color: inherit;
   border: 1px solid var(--light-gray);
+  padding: 0;
+  overflow: hidden;
 }
 
 .service-card:hover {
-  border-color: var(--accent-teal);
+  border-color: var(--primary-green);
+}
+
+/* Service Image */
+.service-image {
+  position: relative;
+  height: 200px;
+  overflow: hidden;
+}
+
+.service-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-normal);
+}
+
+.service-card:hover .service-image img {
+  transform: scale(1.05);
 }
 
 .service-icon {
-  width: 64px;
-  height: 64px;
+  position: absolute;
+  bottom: -20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, var(--primary-blue) 0%, var(--primary-blue-light) 100%);
+  background: var(--primary-green);
   color: var(--white);
   border-radius: var(--radius-lg);
-  margin-bottom: var(--spacing-lg);
+  box-shadow: var(--shadow-md);
   transition: transform var(--transition-fast);
 }
 
@@ -39,23 +62,34 @@
   transform: scale(1.1);
 }
 
-.service-card h3 {
-  font-size: var(--text-xl);
-  margin-bottom: var(--spacing-sm);
-  color: var(--primary-blue);
+/* Service Content */
+.service-content {
+  padding: var(--spacing-xl);
+  padding-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
 }
 
-.service-card p {
+.service-content h3 {
+  font-size: var(--text-xl);
+  margin-bottom: var(--spacing-sm);
+  color: var(--primary-green);
+  font-family: var(--font-heading);
+}
+
+.service-content p {
   color: var(--medium-gray);
   flex: 1;
   margin-bottom: var(--spacing-md);
+  line-height: 1.6;
 }
 
 .service-link {
   display: inline-flex;
   align-items: center;
   gap: var(--spacing-xs);
-  color: var(--accent-teal);
+  color: var(--primary-green);
   font-weight: 600;
   margin-top: auto;
   transition: gap var(--transition-fast);
@@ -68,7 +102,7 @@
 /* Services CTA */
 .services-cta {
   text-align: center;
-  padding: var(--spacing-xl);
+  padding: var(--spacing-2xl);
   background: var(--off-white);
   border-radius: var(--radius-lg);
   display: flex;
@@ -87,5 +121,9 @@
 @media (max-width: 768px) {
   .services-grid {
     grid-template-columns: 1fr;
+  }
+
+  .service-image {
+    height: 180px;
   }
 }
