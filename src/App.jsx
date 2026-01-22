@@ -22,7 +22,6 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/areas" element={<Home />} />
           <Route path="/areas/:area" element={<Home />} />
-          <Route path="/costs" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
