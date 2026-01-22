@@ -163,12 +163,35 @@
 }
 
 @media (max-width: 600px) {
+  .footer {
+    padding: var(--spacing-2xl) 0 0;
+  }
+
   .footer-grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
   }
 
   .footer-about {
     grid-column: span 1;
+  }
+
+  .footer-logo .logo-text {
+    font-size: var(--text-xl);
+  }
+
+  .footer-logo .logo-subtext {
+    font-size: var(--text-xs);
+  }
+
+  .footer-about p {
+    font-size: var(--text-sm);
+  }
+
+  .footer-links h4,
+  .footer-contact h4 {
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-md);
   }
 
   .footer-bottom {
@@ -180,5 +203,36 @@
   .footer-bottom-links {
     flex-wrap: wrap;
     justify-content: center;
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: var(--spacing-xl) 0 0;
+  }
+
+  .footer-grid {
+    gap: var(--spacing-lg);
+    padding-bottom: var(--spacing-lg);
+  }
+
+  .social-links a {
+    width: 36px;
+    height: 36px;
+  }
+
+  .footer-bottom {
+    padding: var(--spacing-md) 0;
+    font-size: var(--text-xs);
+  }
+
+  .footer-bottom-links {
+    gap: var(--spacing-sm);
+  }
+
+  .cqc-badge-footer {
+    font-size: var(--text-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
   }
 }

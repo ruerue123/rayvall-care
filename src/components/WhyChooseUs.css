@@ -153,4 +153,49 @@
   .why-choose-us-image .main-image {
     height: 280px;
   }
+
+  .image-badge {
+    padding: var(--spacing-md);
+    right: 15px;
+    bottom: -12px;
+  }
+
+  .badge-number {
+    font-size: var(--text-2xl);
+  }
+
+  .badge-text {
+    font-size: var(--text-xs);
+  }
+}
+
+@media (max-width: 480px) {
+  .why-choose-us-content {
+    gap: var(--spacing-xl);
+  }
+
+  .why-choose-us-image .main-image {
+    height: 220px;
+  }
+
+  .why-choose-us-text > p {
+    font-size: var(--text-base);
+  }
+
+  .feature-item {
+    padding: var(--spacing-sm);
+  }
+
+  .feature-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .feature-content h4 {
+    font-size: var(--text-xs);
+  }
+
+  .feature-content p {
+    display: none;
+  }
 }

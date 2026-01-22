@@ -54,3 +54,37 @@
   color: var(--medium-gray);
   font-size: var(--text-lg);
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .contact-hero {
+    padding: var(--spacing-2xl) 0;
+  }
+
+  .contact-hero p {
+    font-size: var(--text-base);
+  }
+
+  .map-section {
+    height: 300px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .contact-hero .hero-badge {
+    font-size: var(--text-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .map-section {
+    height: 250px;
+  }
+
+  .map-placeholder {
+    font-size: var(--text-base);
+  }
+}

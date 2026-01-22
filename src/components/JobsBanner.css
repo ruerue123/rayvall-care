@@ -110,4 +110,35 @@
   .main-job-image {
     height: 250px;
   }
+
+  .jobs-text > p {
+    font-size: var(--text-base);
+  }
+
+  .benefits-list li {
+    font-size: var(--text-sm);
+    padding: var(--spacing-xs) 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs-banner-content {
+    gap: var(--spacing-xl);
+  }
+
+  .main-job-image {
+    height: 200px;
+  }
+
+  .jobs-label {
+    font-size: var(--text-xs);
+  }
+
+  .benefits-list {
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .benefits-list li {
+    font-size: var(--text-xs);
+  }
 }

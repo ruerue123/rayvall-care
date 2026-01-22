@@ -210,3 +210,81 @@
     gap: var(--spacing-2xl);
   }
 }
+
+@media (max-width: 768px) {
+  .jobs-hero {
+    padding: var(--spacing-2xl) 0;
+  }
+
+  .jobs-hero p {
+    font-size: var(--text-base);
+  }
+
+  .benefits-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-lg);
+  }
+
+  .benefit-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .benefit-card h3 {
+    font-size: var(--text-base);
+  }
+
+  .benefit-card p {
+    font-size: var(--text-sm);
+  }
+
+  .vacancies-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-lg);
+  }
+
+  .vacancy-header h3 {
+    font-size: var(--text-lg);
+  }
+}
+
+@media (max-width: 480px) {
+  .jobs-hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .jobs-hero .hero-badge {
+    font-size: var(--text-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .benefits-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+
+  .vacancy-meta {
+    gap: var(--spacing-sm);
+  }
+
+  .vacancy-meta span {
+    font-size: var(--text-xs);
+  }
+
+  .requirements-text > p {
+    font-size: var(--text-base);
+  }
+
+  .requirements-list li {
+    font-size: var(--text-sm);
+  }
+
+  .cta-card {
+    padding: var(--spacing-xl);
+  }
+
+  .cta-card p {
+    font-size: var(--text-sm);
+  }
+}

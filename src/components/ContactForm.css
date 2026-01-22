@@ -138,4 +138,54 @@
   .form-row {
     grid-template-columns: 1fr;
   }
+
+  .contact-info > p {
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-xl);
+  }
+
+  .contact-details {
+    gap: var(--spacing-md);
+  }
+
+  .contact-icon {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-grid {
+    gap: var(--spacing-xl);
+  }
+
+  .form-card {
+    padding: var(--spacing-lg);
+  }
+
+  .form-card h3 {
+    font-size: var(--text-lg);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .form-group {
+    margin-bottom: var(--spacing-md);
+  }
+
+  .form-group label {
+    font-size: var(--text-sm);
+  }
+
+  .form-note {
+    font-size: var(--text-xs);
+  }
+
+  .contact-item strong {
+    font-size: var(--text-sm);
+  }
+
+  .contact-item a,
+  .contact-item span {
+    font-size: var(--text-xs);
+  }
 }

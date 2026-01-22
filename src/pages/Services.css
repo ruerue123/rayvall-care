@@ -162,3 +162,65 @@
     grid-template-columns: 1fr;
   }
 }
+
+@media (max-width: 768px) {
+  .services-hero {
+    padding: var(--spacing-2xl) 0;
+  }
+
+  .services-hero p {
+    font-size: var(--text-base);
+  }
+
+  .service-detail {
+    padding: var(--spacing-2xl) 0;
+    gap: var(--spacing-xl);
+  }
+
+  .service-icon-large {
+    width: 60px;
+    height: 60px;
+    margin-bottom: var(--spacing-md);
+  }
+
+  .service-description {
+    font-size: var(--text-base);
+    margin-bottom: var(--spacing-lg);
+  }
+
+  .service-image .image-placeholder {
+    height: 200px;
+  }
+
+  .services-cta p {
+    font-size: var(--text-base);
+  }
+}
+
+@media (max-width: 480px) {
+  .services-hero {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .services-hero .hero-badge {
+    font-size: var(--text-xs);
+    padding: var(--spacing-xs) var(--spacing-sm);
+  }
+
+  .service-detail {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .service-icon-large {
+    width: 50px;
+    height: 50px;
+  }
+
+  .service-features li {
+    font-size: var(--text-sm);
+  }
+
+  .service-image .image-placeholder {
+    height: 160px;
+  }
+}

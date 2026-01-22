@@ -89,7 +89,17 @@
 }
 
 /* Responsive */
+@media (max-width: 992px) {
+  .areas-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 @media (max-width: 768px) {
+  .areas-grid {
+    gap: var(--spacing-lg);
+  }
+
   .areas-cta {
     flex-direction: column;
     text-align: center;
@@ -98,5 +108,38 @@
 
   .cta-content {
     margin-bottom: var(--spacing-md);
+  }
+
+  .area-header h3 {
+    font-size: var(--text-lg);
+  }
+}
+
+@media (max-width: 600px) {
+  .areas-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-md);
+  }
+}
+
+@media (max-width: 480px) {
+  .areas-cta {
+    padding: var(--spacing-lg);
+  }
+
+  .cta-content h3 {
+    font-size: var(--text-lg);
+  }
+
+  .cta-content p {
+    font-size: var(--text-sm);
+  }
+
+  .towns-list {
+    gap: var(--spacing-xs);
+  }
+
+  .towns-list li a {
+    font-size: var(--text-xs);
   }
 }
