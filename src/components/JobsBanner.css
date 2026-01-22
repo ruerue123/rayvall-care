@@ -1,0 +1,100 @@
+/* Jobs Banner Section Styles */
+.jobs-banner {
+  background: var(--off-white);
+}
+
+.jobs-banner-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+}
+
+.jobs-icon {
+  width: 64px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--accent-teal);
+  color: var(--white);
+  border-radius: var(--radius-lg);
+  margin-bottom: var(--spacing-lg);
+}
+
+.jobs-text h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.jobs-text > p {
+  font-size: var(--text-lg);
+  color: var(--medium-gray);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.7;
+}
+
+.benefits-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-xl) 0;
+}
+
+.benefits-list li {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) 0;
+  color: var(--text-dark);
+}
+
+.benefits-list li svg {
+  color: var(--accent-teal);
+  flex-shrink: 0;
+}
+
+/* Jobs Image */
+.jobs-image {
+  position: relative;
+}
+
+.image-placeholder {
+  position: relative;
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: var(--shadow-lg);
+}
+
+.image-placeholder::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  right: 20px;
+  bottom: 20px;
+  background: var(--accent-teal);
+  border-radius: var(--radius-lg);
+  z-index: -1;
+  opacity: 0.2;
+}
+
+.image-placeholder img {
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 992px) {
+  .jobs-banner-content {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-2xl);
+  }
+
+  .jobs-image {
+    order: -1;
+  }
+
+  .image-placeholder img {
+    height: 300px;
+  }
+}

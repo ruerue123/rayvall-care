@@ -1,0 +1,102 @@
+/* Areas We Cover Section Styles */
+.areas {
+  background: var(--white);
+}
+
+.areas-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.area-card {
+  border: 1px solid var(--light-gray);
+}
+
+.area-header {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--accent-teal);
+}
+
+.area-header svg {
+  color: var(--accent-teal);
+}
+
+.area-header h3 {
+  font-size: var(--text-xl);
+  margin: 0;
+}
+
+.towns-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 var(--spacing-lg) 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-sm);
+}
+
+.towns-list li a {
+  color: var(--medium-gray);
+  font-size: var(--text-sm);
+  transition: color var(--transition-fast);
+}
+
+.towns-list li a:hover {
+  color: var(--accent-teal);
+}
+
+.area-link {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  color: var(--primary-blue);
+  font-weight: 600;
+  font-size: var(--text-sm);
+  transition: gap var(--transition-fast);
+}
+
+.area-link:hover {
+  gap: var(--spacing-sm);
+  color: var(--accent-teal);
+}
+
+/* Areas CTA */
+.areas-cta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-xl);
+  padding: var(--spacing-xl);
+  background: var(--off-white);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid var(--accent-teal);
+}
+
+.cta-content h3 {
+  margin-bottom: var(--spacing-xs);
+  font-size: var(--text-xl);
+}
+
+.cta-content p {
+  margin: 0;
+  color: var(--medium-gray);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .areas-cta {
+    flex-direction: column;
+    text-align: center;
+    align-items: stretch;
+  }
+
+  .cta-content {
+    margin-bottom: var(--spacing-md);
+  }
+}
