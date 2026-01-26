@@ -38,7 +38,7 @@ const services = [
     title: 'Live-In Care',
     slug: 'live-in-care',
     description: '24/7 dedicated care in the comfort of your own home, providing round-the-clock support and peace of mind.',
-    image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
     features: [
       'Round-the-clock support',
       'Personalised one-to-one care',

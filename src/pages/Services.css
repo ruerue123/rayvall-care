@@ -113,8 +113,9 @@
 
 .service-image img {
   width: 100%;
-  height: 320px;
+  aspect-ratio: 4 / 3;
   object-fit: cover;
+  object-position: center top;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
 }
@@ -165,7 +166,7 @@
 
   .service-image img,
   .service-image .image-placeholder {
-    height: 300px;
+    aspect-ratio: 16 / 10;
   }
 
   .service-features {
@@ -200,7 +201,7 @@
 
   .service-image img,
   .service-image .image-placeholder {
-    height: 220px;
+    aspect-ratio: 16 / 10;
   }
 
   .services-cta p {
@@ -233,7 +234,7 @@
 
   .service-image img,
   .service-image .image-placeholder {
-    height: 180px;
+    aspect-ratio: 16 / 9;
   }
 
   .service-detail {

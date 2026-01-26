@@ -22,7 +22,7 @@ const services = [
     title: 'Live-In Care',
     description: '24/7 dedicated care in the comfort of your own home, providing round-the-clock support.',
     link: '/services/live-in-care',
-    image: 'https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80',
   },
   {
     icon: Brain,
