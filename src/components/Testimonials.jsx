@@ -8,7 +8,7 @@ const testimonials = [
     relation: 'Daughter of Client',
     location: 'Surrey',
     rating: 5,
-    text: "Rayvall Care has been absolutely wonderful with my mother. The carers are kind, patient, and always go the extra mile. Mum looks forward to their visits and has built such a lovely rapport with her regular carer, Sarah.",
+    text: "Rayvall Healthcare Solutions has been absolutely wonderful with my mother. The carers are kind, patient, and always go the extra mile. Mum looks forward to their visits and has built such a lovely rapport with her regular carer, Sarah.",
   },
   {
     name: 'David Williams',

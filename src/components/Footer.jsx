@@ -12,7 +12,7 @@ const Footer = () => {
           <div className="footer-about">
             <Link to="/" className="footer-logo">
               <span className="logo-text">Rayvall</span>
-              <span className="logo-subtext">Care</span>
+              <span className="logo-subtext">Healthcare Solutions</span>
             </Link>
             <p>
               Providing compassionate, professional homecare services across the
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="footer-bottom">
-          <p>&copy; {currentYear} Rayvall Care. All rights reserved.</p>
+          <p>&copy; {currentYear} Rayvall Healthcare Solutions. All rights reserved.</p>
           <div className="footer-bottom-links">
             <Link to="/privacy">Privacy Policy</Link>
             <Link to="/terms">Terms of Service</Link>

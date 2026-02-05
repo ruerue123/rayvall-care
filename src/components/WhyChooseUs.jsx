@@ -51,10 +51,10 @@ const WhyChooseUs = () => {
             </div>
           </div>
           <div className="why-choose-us-text">
-            <span className="section-label">Why Choose Rayvall Care</span>
+            <span className="section-label">Why Choose Rayvall Healthcare Solutions</span>
             <h2>Trusted Homecare That Puts You First</h2>
             <p>
-              For over 15 years, Rayvall Care has been providing exceptional domiciliary
+              For over 15 years, Rayvall Healthcare Solutions has been providing exceptional domiciliary
               care services across the UK. We understand that inviting someone into your
               home to provide care is a significant decision, which is why we go above
               and beyond to ensure you receive the highest quality support.

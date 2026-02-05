@@ -55,7 +55,7 @@ const Jobs = () => {
             <span className="hero-badge">Join Our Team</span>
             <h1>Build a Rewarding Career in Care</h1>
             <p>
-              At Rayvall Care, we're looking for compassionate individuals who want
+              At Rayvall Healthcare Solutions, we're looking for compassionate individuals who want
               to make a real difference in people's lives. Join our family and help
               others live independently at home.
             </p>

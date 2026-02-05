@@ -35,7 +35,7 @@ const About = () => {
             <span className="hero-badge">About Us</span>
             <h1>Caring for You Like Family</h1>
             <p>
-              For over 15 years, Rayvall Care has been providing exceptional
+              For over 15 years, Rayvall Healthcare Solutions has been providing exceptional
               homecare services, helping people live independently in the comfort
               of their own homes.
             </p>
@@ -51,7 +51,7 @@ const About = () => {
               <span className="section-label">Our Story</span>
               <h2>A Family Business Built on Care</h2>
               <p>
-                Rayvall Care was founded with a simple but powerful mission: to
+                Rayvall Healthcare Solutions was founded with a simple but powerful mission: to
                 provide the kind of care we would want for our own loved ones.
                 What started as a small family operation has grown into a trusted
                 care provider serving communities across the South East of England.
@@ -174,7 +174,7 @@ const About = () => {
             <h2 className="text-white">Join Our Caring Team</h2>
             <p className="text-white">
               Want to make a real difference in people's lives? We're always
-              looking for compassionate individuals to join the Rayvall Care family.
+              looking for compassionate individuals to join the Rayvall Healthcare Solutions family.
             </p>
             <Link to="/jobs" className="btn btn-secondary btn-lg">
               View Career Opportunities

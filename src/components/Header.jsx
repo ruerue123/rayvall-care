@@ -56,7 +56,7 @@ const Header = () => {
           <div className="nav-content">
             <Link to="/" className="logo" onClick={closeMenu}>
               <span className="logo-text">Rayvall</span>
-              <span className="logo-subtext">Care</span>
+              <span className="logo-subtext">Healthcare Solutions</span>
             </Link>
 
             <button className="mobile-toggle" onClick={toggleMenu} aria-label="Toggle menu">

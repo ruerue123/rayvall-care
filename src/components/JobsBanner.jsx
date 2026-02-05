@@ -32,7 +32,7 @@ const JobsBanner = () => {
             <p>
               Are you compassionate, reliable, and looking for a fulfilling career
               in care? We're always looking for dedicated individuals to join the
-              Rayvall Care family.
+              Rayvall Healthcare Solutions family.
             </p>
             <ul className="benefits-list">
               {benefits.map((benefit, index) => (
