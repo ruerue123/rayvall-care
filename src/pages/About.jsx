@@ -147,16 +147,16 @@ const About = () => {
             </div>
             <div className="cqc-text">
               <span className="section-label">Quality Assurance</span>
-              <h2>Regulated by the Care Quality Commission</h2>
+              <h2>CQC Registration in Progress</h2>
               <p>
-                We are fully registered and regulated by the Care Quality
+                We are currently in the process of registering with the Care Quality
                 Commission (CQC), the independent regulator of health and social
-                care in England. This means we are regularly inspected to ensure
-                we meet the highest standards of care.
+                care in England. This registration will ensure we meet the highest
+                standards of care.
               </p>
               <p>
-                Our CQC registration gives you peace of mind that we operate
-                within strict guidelines designed to keep vulnerable people safe
+                Our commitment to CQC registration demonstrates our dedication to
+                operating within strict guidelines designed to keep vulnerable people safe
                 and ensure they receive quality care.
               </p>
               <Link to="/contact" className="btn btn-primary">

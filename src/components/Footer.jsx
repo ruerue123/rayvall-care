@@ -16,7 +16,7 @@ const Footer = () => {
             </Link>
             <p>
               Providing compassionate, professional homecare services across the
-              South East of England. CQC registered and committed to helping you
+              South East of England. CQC registration in progress, committed to helping you
               live independently at home.
             </p>
             <div className="social-links">
@@ -75,7 +75,7 @@ const Footer = () => {
               </li>
             </ul>
             <div className="cqc-badge-footer">
-              <span>CQC Registered Provider</span>
+              <span>CQC Registration in Progress</span>
             </div>
           </div>
         </div>

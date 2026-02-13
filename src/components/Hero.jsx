@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="hero-overlay"></div>
       <div className="container">
         <div className="hero-content">
-          <span className="hero-badge">CQC Registered Care Provider</span>
+          <span className="hero-badge">CQC Registration in Progress</span>
           <h1>Quality Homecare You Can Trust</h1>
           <p className="hero-subtitle">
             Compassionate domiciliary care services helping you or your loved ones

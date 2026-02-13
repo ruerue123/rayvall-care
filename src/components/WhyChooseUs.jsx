@@ -4,8 +4,8 @@ import './WhyChooseUs.css';
 const features = [
   {
     icon: Shield,
-    title: 'CQC Registered',
-    description: 'Fully regulated by the Care Quality Commission, ensuring the highest standards of care.',
+    title: 'CQC Registration in Progress',
+    description: 'Working towards full CQC regulation to ensure the highest standards of care.',
   },
   {
     icon: Award,

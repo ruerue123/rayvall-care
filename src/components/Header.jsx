@@ -46,7 +46,7 @@ const Header = () => {
               <Phone size={16} />
               <span>Call Us: 07990 493201</span>
             </a>
-            <span className="cqc-badge">CQC Registered</span>
+            <span className="cqc-badge">CQC Registration in Progress</span>
           </div>
         </div>
       </div>
