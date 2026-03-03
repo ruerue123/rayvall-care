@@ -96,20 +96,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        <div className="testimonials-stats">
-          <div className="stat">
-            <span className="stat-number">4.9/5</span>
-            <span className="stat-label">Average Rating</span>
-          </div>
-          <div className="stat">
-            <span className="stat-number">200+</span>
-            <span className="stat-label">Google Reviews</span>
-          </div>
-          <div className="stat">
-            <span className="stat-number">98%</span>
-            <span className="stat-label">Would Recommend</span>
-          </div>
-        </div>
       </div>
     </section>
   );

@@ -8,7 +8,7 @@ const services = [
     title: 'Personal Care',
     slug: 'personal-care',
     description: 'Dignified support with daily activities including bathing, dressing, grooming, and medication management.',
-    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&q=80',
     imageAlt: 'Caregiver assisting elderly person with personal care',
     features: [
       'Bathing and showering assistance',
@@ -24,7 +24,7 @@ const services = [
     title: 'Companionship',
     slug: 'companionship',
     description: 'Friendly visits providing social interaction, conversation, and accompaniment to appointments or activities.',
-    image: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1478476868527-002ae3f3e159?w=600&h=450&fit=crop&q=80',
     imageAlt: 'Caregiver and elderly person enjoying friendly conversation',
     features: [
       'Friendly conversation and company',
@@ -40,7 +40,7 @@ const services = [
     title: 'Live-In Care',
     slug: 'live-in-care',
     description: '24/7 dedicated care in the comfort of your own home, providing round-the-clock support and peace of mind.',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1666887360680-9dc27a1d2753?w=600&h=450&fit=crop&q=80',
     imageAlt: 'Caregiver providing live-in support in comfortable home setting',
     features: [
       'Round-the-clock support',
@@ -56,7 +56,7 @@ const services = [
     title: 'Dementia Care',
     slug: 'dementia-care',
     description: 'Specialist support for those living with dementia, delivered with patience, understanding, and dignity.',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=450&fit=crop&q=80',
     imageAlt: 'Compassionate dementia care with gentle support',
     features: [
       'Specially trained dementia carers',
@@ -72,7 +72,7 @@ const services = [
     title: 'Respite Care',
     slug: 'respite-care',
     description: 'Short-term care to give family carers a well-deserved break while ensuring continuity of care.',
-    image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80',
+    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=600&h=450&fit=crop',
     imageAlt: 'Peaceful respite care environment for short-term support',
     features: [
       'Flexible duration options',
@@ -88,8 +88,8 @@ const services = [
     title: 'Complex Care',
     slug: 'complex-care',
     description: 'Specialist nursing support for conditions requiring clinical expertise and ongoing medical care.',
-    image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=600&q=80',
-    imageAlt: 'Professional medical equipment for complex care needs',
+    image: 'https://images.unsplash.com/photo-1666886573197-bf6600d15bce?w=600&h=450&fit=crop&q=80',
+    imageAlt: 'Nurse providing specialist complex care support',
     features: [
       'Catheter and stoma care',
       'PEG feeding support',

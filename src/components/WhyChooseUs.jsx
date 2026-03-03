@@ -41,8 +41,8 @@ const WhyChooseUs = () => {
         <div className="why-choose-us-content">
           <div className="why-choose-us-image">
             <img
-              src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&q=80"
-              alt="Caring hands helping elderly person"
+              src="https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&q=80"
+              alt="Caregiver supporting elderly person at home"
               className="main-image"
             />
             <div className="image-badge">

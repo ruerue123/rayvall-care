@@ -1,49 +1,43 @@
 import { Link } from 'react-router-dom';
-import { Heart, Users, Home, Brain, Clock, Stethoscope, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import './Services.css';
 
 const services = [
   {
-    icon: Heart,
     title: 'Personal Care',
     description: 'Dignified support with daily activities including bathing, dressing, and medication management.',
     link: '/services/personal-care',
-    image: 'https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&h=375&fit=crop&q=80',
   },
   {
-    icon: Users,
     title: 'Companionship',
     description: 'Friendly visits providing social interaction, conversation, and accompaniment to appointments.',
     link: '/services/companionship',
-    image: 'https://images.unsplash.com/photo-1516307365426-bea591f05011?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1478476868527-002ae3f3e159?w=600&h=375&fit=crop&q=80',
   },
   {
-    icon: Home,
     title: 'Live-In Care',
     description: '24/7 dedicated care in the comfort of your own home, providing round-the-clock support.',
     link: '/services/live-in-care',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1666887360680-9dc27a1d2753?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
   },
   {
-    icon: Brain,
     title: 'Dementia Care',
     description: 'Specialist support for those living with dementia, delivered with patience and understanding.',
     link: '/services/dementia-care',
-    image: 'https://images.unsplash.com/photo-1447069387593-a5de0862481e?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=375&fit=crop&q=80',
   },
   {
-    icon: Clock,
     title: 'Respite Care',
     description: 'Short-term care to give family carers a well-deserved break while ensuring continuity of care.',
     link: '/services/respite-care',
-    image: 'https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=400&q=80',
+    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=600&h=375&fit=crop',
   },
   {
-    icon: Stethoscope,
     title: 'Complex Care',
     description: 'Specialist nursing support for conditions requiring clinical expertise and medical knowledge.',
     link: '/services/complex-care',
-    image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=80',
+    image: 'https://images.unsplash.com/photo-1666886573197-bf6600d15bce?w=600&h=375&fit=crop&q=80',
   },
 ];
 
@@ -64,9 +58,6 @@ const Services = () => {
             <Link to={service.link} key={index} className="service-card card">
               <div className="service-image">
                 <img src={service.image} alt={service.title} />
-                <div className="service-icon">
-                  <service.icon size={18} />
-                </div>
               </div>
               <div className="service-content">
                 <h3>{service.title}</h3>

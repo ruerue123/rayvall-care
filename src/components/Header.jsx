@@ -86,9 +86,6 @@ const Header = () => {
                 </ul>
               </li>
               <li>
-                <NavLink to="/areas" onClick={closeMenu}>Areas We Cover</NavLink>
-              </li>
-              <li>
                 <NavLink to="/about" onClick={closeMenu}>About Us</NavLink>
               </li>
               <li>

@@ -76,8 +76,8 @@ const About = () => {
                 className="story-image-main"
               />
               <img
-                src="https://images.unsplash.com/photo-1581579438747-1dc8d17bbce4?w=400&q=80"
-                alt="Happy senior couple"
+                src="https://images.pexels.com/photos/6129494/pexels-photo-6129494.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt="Healthcare professionals smiling"
                 className="story-image-secondary"
               />
             </div>
