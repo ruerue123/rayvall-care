@@ -41,14 +41,10 @@ const WhyChooseUs = () => {
         <div className="why-choose-us-content">
           <div className="why-choose-us-image">
             <img
-              src="https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&q=80"
-              alt="Caregiver supporting elderly person at home"
+              src="https://media.istockphoto.com/id/1424334340/photo/nurse-pushing-senior-woman-on-wheelchair.jpg?s=612x612&w=0&k=20&c=umtAxs8v9FPtVAT3R5pF823xhq8qC8bdmAI0LKwih2U="
+              alt="Nurse pushing senior woman on wheelchair"
               className="main-image"
             />
-            <div className="image-badge">
-              <span className="badge-number">15+</span>
-              <span className="badge-text">Years of Care</span>
-            </div>
           </div>
           <div className="why-choose-us-text">
             <span className="section-label">Why Choose Rayvall Healthcare Solutions</span>

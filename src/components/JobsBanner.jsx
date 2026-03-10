@@ -16,7 +16,7 @@ const JobsBanner = () => {
         <div className="jobs-banner-content">
           <div className="jobs-image">
             <img
-              src="https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&q=80"
+              src="https://media.istockphoto.com/id/1424334340/photo/nurse-pushing-senior-woman-on-wheelchair.jpg?s=612x612&w=0&k=20&c=umtAxs8v9FPtVAT3R5pF823xhq8qC8bdmAI0LKwih2U="
               alt="Care professional with elderly client"
               className="main-job-image"
             />

@@ -2,15 +2,15 @@
 /* Based on original Rayvall Healthcare Solutions branding - Lighter variant */
 
 :root {
-  /* Primary Colors - Rayvall Brand Green (Lighter) */
-  --primary-green: #4aa47c;
-  --primary-green-light: #5cb88d;
-  --primary-green-dark: #3d8a68;
+  /* Primary Colors - Warm Leaf Green with golden undertone */
+  --primary-green: #6b9a2a;
+  --primary-green-light: #7db332;
+  --primary-green-dark: #568021;
 
-  /* Secondary/Accent - Softer Green for contrast */
-  --accent-green: #3d9970;
-  --accent-green-light: #4aa47c;
-  --accent-green-dark: #2e7d5a;
+  /* Secondary/Accent - Golden-green for contrast */
+  --accent-green: #7a9e1e;
+  --accent-green-light: #8db52a;
+  --accent-green-dark: #5f7d16;
 
   /* Neutral Colors */
   --white: #ffffff;

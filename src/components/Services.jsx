@@ -7,13 +7,13 @@ const services = [
     title: 'Personal Care',
     description: 'Dignified support with daily activities including bathing, dressing, and medication management.',
     link: '/services/personal-care',
-    image: 'https://images.unsplash.com/photo-1576765607924-3f7b8410a787?w=600&h=375&fit=crop&q=80',
+    image: 'https://wallpaperaccess.com/full/12857173.jpg',
   },
   {
     title: 'Companionship',
     description: 'Friendly visits providing social interaction, conversation, and accompaniment to appointments.',
     link: '/services/companionship',
-    image: 'https://images.unsplash.com/photo-1478476868527-002ae3f3e159?w=600&h=375&fit=crop&q=80',
+    image: 'https://media.istockphoto.com/id/1630265698/photo/retired-woman-with-female-home-carer.jpg?s=170667a&w=0&k=20&c=MDwcQqBvLeQF3M2yJzpcC3RMPqPXzsC7osvlU0aNPHk=',
   },
   {
     title: 'Live-In Care',
@@ -25,19 +25,19 @@ const services = [
     title: 'Dementia Care',
     description: 'Specialist support for those living with dementia, delivered with patience and understanding.',
     link: '/services/dementia-care',
-    image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=600&h=375&fit=crop&q=80',
+    image: 'https://wallpaperaccess.com/full/12856943.jpg',
   },
   {
     title: 'Respite Care',
     description: 'Short-term care to give family carers a well-deserved break while ensuring continuity of care.',
     link: '/services/respite-care',
-    image: 'https://images.pexels.com/photos/5452201/pexels-photo-5452201.jpeg?auto=compress&cs=tinysrgb&w=600&h=375&fit=crop',
+    image: 'https://media.istockphoto.com/id/2160106752/photo/assisted-living-bedroom-or-retirement-with-nurse-and-old-woman-in-home-for-private-healthcare.webp?a=1&b=1&s=612x612&w=0&k=20&c=4c_93HjK6QlqAKjzE9IDEpwMFSwgAxyW5CxFeOddTSo=',
   },
   {
     title: 'Complex Care',
     description: 'Specialist nursing support for conditions requiring clinical expertise and medical knowledge.',
     link: '/services/complex-care',
-    image: 'https://images.unsplash.com/photo-1666886573197-bf6600d15bce?w=600&h=375&fit=crop&q=80',
+    image: 'https://www.homecaring.com.au/wp-content/uploads/2024/09/townsville-loc.webp',
   },
 ];
 
